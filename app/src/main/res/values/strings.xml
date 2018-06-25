@@ -1,0 +1,111 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="app_name">宠爱有缘</string>
+    <string name="default_user">宠爱有缘用户</string>
+    <string name="encode_qrcode">生成二维码</string>
+    <string name="dencode_qrcode">扫描二维码</string>
+    <string name="code_text">请输入生成二维码的文本信息</string>
+    <string name="qrcodetext">这里显示扫描结果</string>
+    <string name="tab01_value">首页</string>
+    <string name="tab02_value">福利社</string>
+    <string name="tab03_value">我的</string>
+    <string name="useit">立即体验</string>
+
+    <!-- 注册登录模块的-->
+    <string name="login">登录</string>
+    <string name="login_fast">快速登录</string>
+    <string name="forget_psw">忘记密码</string>
+    <string name="regist">注册</string>
+    <string name="resetpsw">重置密码</string>
+    <string name="updatepsw">修改密码</string>
+    <string name="updatepsw_success">修改密码成功，请重新登录</string>
+    <string name="updatepsw_error">修改密码失败，请重新输入</string>
+    <string name="regist_fast">快速注册</string>
+    <string name="login_username">用户名</string>
+    <string name="tel_warnning">请输入手机号</string>
+    <string name="code_send">发送验证码</string>
+    <string name="send_show">s后重新发送</string>
+    <string name="code_warning">验证码</string>
+    <string name="password_warning">密码</string>
+    <string name="password_old">原始密码</string>
+    <string name="password_new">新密码</string>
+    <string name="passwordr_warning">确认密码</string>
+    <string name="pls_enter_phone">请输入手机号</string>
+    <string name="pls_enter_rightphone">请输入正确的手机号</string>
+    <string name="pls_enter_psw">请输入密码</string>
+    <string name="pls_enter_code">请输入验证码</string>
+    <string name="pls_enter_psdr">请输入确认密码</string>
+    <string name="pls_enter_same">两次密码输入不一致，请重新输入</string>
+    <string name="login_loading">正在登录中...</string>
+    <string name="login_success">登录成功</string>
+
+    <!--用户发布界面的 -->
+    <string name="add_title">征婚启事</string>
+    <string name="add_kind">我家的小可爱是：</string>
+    <string name="add_sex">猜猜ta的性别呢？</string>
+    <string name="add_desc">我隆重介绍一下：</string>
+    <string name="add_age">我的宝贝多大啦？</string>
+    <string name="add_warn">点击此处选择哦</string>
+    <string name="add_descwarn">好好的炫耀炫耀吧~</string>
+    <string name="add_picture">美美的照片:</string>
+    <string name="add_btn">去征婚咯</string>
+    <string name="add_kind_title">我是一只可爱的</string>
+    <string name="add_kind_cat">小猫咪</string>
+    <string name="add_kind_dog">小旺财</string>
+    <string name="add_kind_cancel">取消</string>
+    <string name="kind_desc_name">宠物种类</string>
+    <string name="add_sex_title">我的性别是</string>
+    <string name="add_sex_boy">男孩儿</string>
+    <string name="add_sex_girl">女孩儿</string>
+    <string name="age_desc_name">宠物年龄</string>
+    <string name="submint_success">发布成功!</string>
+    <string name="add_kind_warn">请选择品种</string>
+    <string name="add_age_warn">请选择年龄</string>
+    <string name="add_sex_warn">请选择性别</string>
+    <string name="add_desc_warn">请填写简介</string>
+    <string name="add_loading">信息发布中...</string>
+    <string name="add_success">信息发布成功</string>
+
+    <!-- 首页显示元素-->
+    <string name="info_kind">种类：</string>
+    <string name="info_age">年龄：</string>
+    <string name="info_sex">性别：</string>
+    <string name="info_desc">简介：</string>
+    <string name="info_pic">照片：</string>
+
+    <!-- 我的界面的-->
+    <string name="my_login">点击登录</string>
+    <string name="my_unregist">注销当前账号</string>
+    <string name="my_desc">我的资料</string>
+    <string name="my_updatepsw">修改密码</string>
+    <string name="my_about">关于</string>
+    <string name="nolimit">不限</string>
+    <!-- 我的详情界面的-->
+    <string name="mydesc_title">我的详情</string>
+    <string name="mydesc_nikename">我的昵称</string>
+    <string name="mydesc_nikename_hint">请输入昵称</string>
+    <string name="mydesc_sex">我的性别</string>
+    <string name="mydesc_sex_value_male">男</string>
+    <string name="mydesc_sex_value_female">女</string>
+    <string name="mydesc_sex_value_secret">保密</string>
+    <string name="mydesc_sex_hint">请输入性别</string>
+    <string name="mydesc_birthday">我的生日</string>
+    <string name="mydesc_birthday_hint">请输入生日</string>
+    <string name="mydesc_age">我的年龄</string>
+    <string name="mydesc_age_hint">请输入年龄</string>
+    <string name="mydesc_city">我的城市</string>
+    <string name="mydesc_city_hint">请输入城市</string>
+    <string name="mydesc_btn_submit">修改</string>
+    <string name="mydesc_updatesuccess">修改成功</string>
+    <string name="verifycode_send">验证码已发送给您，请等待接收</string>
+
+    <string name="im_error">不能和自己聊天</string>
+    <string name="version_findnew">发现新版本</string>
+    <string name="version_cancel">取消</string>
+    <string name="version_download">立刻下载</string>
+    <string name="version_down">下载</string>
+    <string name="version_downloading">正在下载</string>
+    <string name="version_progress">下载 %1$s </string>
+
+</resources>

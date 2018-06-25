@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 欢迎页的item布局-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/v_in"
+        android:layout_width="220px"
+        android:layout_height="60px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80px"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@color/ffffff"
+        android:text="@string/useit"/>
+</RelativeLayout>
+

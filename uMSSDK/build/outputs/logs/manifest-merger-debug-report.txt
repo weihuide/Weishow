@@ -1,0 +1,23 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:2:1-5:31
+INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:2:1-5:31
+INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:2:1-5:31
+INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:2:1-5:31
+INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:2:1-5:31
+INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:2:1-5:31
+INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:2:1-5:31
+	package
+		ADDED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:3:2-23
+		INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml
+		INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:5:2-29
+		INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml
+		INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml:4:2-25
+		INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml
+		INJECTED from D:\weihuide\svn\trunk\WeiShow\uMSSDK\src\main\AndroidManifest.xml

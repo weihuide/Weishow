@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03aefd</color>
+    <color name="colorPrimaryDark">#03aefd</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="L1">#ededed</color>
+    <color name="T2">#7a7a7a</color>
+    <color name="T3">#393939</color>
+    <color name="T4">#03aefd</color>
+    <color name="T9">#AECCE4</color>
+    <!-- 背景色 -->
+    <color name="B2">#f4f4f4</color>
+    <color name="ffffff">#FFFFFF</color>
+    <color name="f333333">#333333</color>
+    <color name="transparent">#00000000</color>
+
+	
+    <!-- QRCode scanner color begin -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#0F0</color>
+    <color name="corner_color">#00FF00</color>
+    <!-- QRCode scanner color end -->
+
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#cccccc</color>
+    <color name="drop_down_selected">#7B1FA2</color>
+    <color name="drop_down_unselected">#111111</color>
+    <color name="mask_color">#88888888</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+</resources>

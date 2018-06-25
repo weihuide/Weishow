@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.dote.family"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+        //极光推送
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'armeabi-v8a','x86'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+        //极光推送
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY : "575031f9bece6787d8c13452", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+        ]
+
+    }
+    buildTypes {
+        release {
+            //是否进行混淆
+            minifyEnabled false
+            //混淆地址
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName  =  "yimo_v${defaultConfig.versionName}.apk";
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:multidex:1.0.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    //Glide 图片框架，需要用到的配置在com.dote.family.constant.GlideConfig中
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //事件总线EventBus框架
+    compile 'org.greenrobot:eventbus:3.0.0'
+    //网络请求框架，支持请求，上传下载，缓存等功能
+    compile ('com.lzy.net:okgo:3.0.4'){
+        exclude group: 'com.squareup.okio'
+    }
+    //recycleView的adapter控件
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.9.7'
+    //gson解析
+    //    compile 'com.google.code.gson:gson:2.8.1'
+    //二维码扫描库
+    compile 'com.google.zxing:core:3.3.0'
+    //上拉加载下拉刷新库
+    compile 'com.github.Aspsine:SwipeToLoadLayout:1.0.4'
+    //leakcanary 内存检测库
+    //    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.2'
+    //对话框
+    compile 'com.github.1em0nsOft:LemonHello4Android:1.0.1'
+    compile 'com.github.1em0nsOft:LemonBubble4Android:1.0.13'
+    //图片选择的库
+    compile project(':imagepicker')
+    //    compile 'com.lzy.widget:imagepicker:0.5.0'
+    //bmob 云数据库
+    compile 'cn.bmob.android:http-legacy:1.0'
+    compile 'cn.bmob.android:bmob-sdk:3.5.6'
+    //mob注册登录集成
+    compile project(':uMSSDK')
+    compile project(':easeui')
+
+    //腾讯bugly
+    compile 'com.tencent.bugly:crashreport:2.6.5'
+
+    //极光推送
+    compile 'cn.jiguang.sdk:jpush:3.0.8'
+    compile 'cn.jiguang.sdk:jcore:1.1.6'
+}

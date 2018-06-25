@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 发布宠物的信息-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ffffff"
+    android:orientation="vertical">
+
+    <com.dote.family.view.TitleLayout
+        android:id="@+id/add_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_kind"
+                    android:textColor="@color/T2"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_addkind"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_search"
+                    android:hint="@string/add_warn"
+                    android:paddingLeft="15dp"
+                    android:textColorHint="@color/T2"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <ImageView style="@style/line_fenge_thin" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_sex"
+                    android:textColor="@color/T2"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_addsex"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_search"
+                    android:hint="@string/add_warn"
+                    android:paddingLeft="15dp"
+                    android:textColorHint="@color/T2"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <ImageView style="@style/line_fenge_thin" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_age"
+                    android:textColor="@color/T2"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_addage"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_search"
+                    android:hint="@string/add_warn"
+                    android:paddingLeft="15dp"
+                    android:textColorHint="@color/T2"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <ImageView style="@style/line_fenge_thin" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_desc"
+                    android:textColor="@color/T2"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_adddesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_search"
+                    android:gravity="left|top"
+                    android:hint="@string/add_descwarn"
+                    android:paddingTop="15dp"
+                    android:textColorHint="@color/T2"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_addpic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/shape_button"
+                    android:text="@string/add_btn"
+                    android:textColor="@color/ffffff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

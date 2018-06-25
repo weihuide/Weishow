@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--corner_color 边角颜色，
+        scanner_color 扫描线颜色
+        possible_result_color 扫描点颜色
+        frame_color 扫描框边线颜色
+        mask_color 模糊区域颜色
+        label_text  框上方提示
+    -->
+    <declare-styleable name="ViewfinderView">
+        <attr name="corner_color" format="color"/>
+        <attr name="laser_color" format="color"/>
+        <attr name="frame_color" format="color" />
+        <attr name="mask_color" format="color" />
+        <attr name="result_point_color" format="color"/>
+        <attr name="result_color" format="color" />
+        <attr name="label_text_color" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_text_size" format="float"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="DropDownMenu">
+        <!-- 下划线颜色-->
+        <attr name="ddunderlineColor" format="color"/>
+        <!-- 分割线颜色-->
+        <attr name="dddividerColor" format="color"/>
+        <!-- tab选中颜色-->
+        <attr name="ddtextSelectedColor" format="color"/>
+        <!-- tab未选中颜色-->
+        <attr name="ddtextUnselectedColor" format="color"/>
+        <!-- tab 背景颜色-->
+        <attr name="ddmenuBackgroundColor" format="color"/>
+        <!-- 遮罩颜色，一般是半透明-->
+        <attr name="ddmaskColor" format="color"/>
+        <!-- tab字体大小-->
+        <attr name="ddmenuTextSize" format="dimension"/>
+        <!-- tab选中状态图标-->
+        <attr name="ddmenuSelectedIcon" format="reference"/>
+        <!-- tab未选中状态图标-->
+        <attr name="ddmenuUnselectedIcon" format="reference"/>
+        <!-- 菜单的最大高度，根据屏幕高度的百分比设置-->
+        <attr name="ddmenuMenuHeightPercent" format="float"/>
+    </declare-styleable>
+
+</resources>

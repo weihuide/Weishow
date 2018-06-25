@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ffffff"
+    android:orientation="vertical">
+    <com.dote.family.view.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myinfo_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/mydesc_nikename"
+            android:textColor="@color/T3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_nikename"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical|right"
+            android:hint="@string/mydesc_nikename_hint"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/T2"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/line_fenge_thin"
+        android:layout_marginLeft="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/mydesc_sex"
+            android:textColor="@color/T3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_sex"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical|right"
+            android:hint="@string/mydesc_sex_hint"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/T2"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <ImageView style="@style/line_fenge_thin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/mydesc_birthday"
+            android:textColor="@color/T3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_birthday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical|right"
+            android:hint="@string/mydesc_birthday_hint"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/T2"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/line_fenge_thin"
+        android:layout_marginLeft="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/mydesc_age"
+            android:textColor="@color/T3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_age"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical|right"
+            android:hint="@string/mydesc_age_hint"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/T2"
+            android:textSize="16sp"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+<!--    <ImageView
+        style="@style/line_fenge_thin"
+        android:layout_marginLeft="15dp" />
+
+    <LinearLayout
+        android:id="@+id/linear_time_of_enrollment"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/mydesc_city"
+            android:textColor="@color/T3"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_city"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical|right"
+            android:hint="@string/mydesc_city_hint"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/T2"
+            android:textSize="16sp" />
+    </LinearLayout>-->
+
+    <ImageView
+        style="@style/line_fenge_thin"
+        android:layout_marginLeft="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/shape_button"
+        android:text="@string/mydesc_btn_submit"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

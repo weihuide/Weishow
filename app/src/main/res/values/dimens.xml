@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="line_height">0.5dp</dimen>
+    <dimen name="textsize_10">10sp</dimen>
+    <dimen name="textsize_12">12sp</dimen>
+    <dimen name="textsize_14">14sp</dimen>
+    <dimen name="textsize_16">16sp</dimen>
+    <dimen name="textsize_18">18sp</dimen>
+    <dimen name="j5dp">5.0dp</dimen>
+</resources>

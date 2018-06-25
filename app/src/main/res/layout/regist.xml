@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.dote.family.view.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regist_title"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ico_yonghum" />
+
+        <EditText
+            android:id="@+id/ed_phone"
+            android:textSize="@dimen/textsize_16"
+            android:layout_width="fill_parent"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="80dp"
+            android:layout_toRightOf="@+id/icon"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:hint="@string/tel_warnning"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/f333333" />
+
+        <TextView
+            android:id="@+id/send"
+            android:textSize="@dimen/textsize_14"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/code_send"
+            android:textColor="@color/colorPrimaryDark" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_gray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ico_yanzhengma" />
+
+        <EditText
+            android:id="@+id/ed_vertifycode"
+            android:textSize="@dimen/textsize_16"
+            android:layout_width="fill_parent"
+            android:layout_height="34dp"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:hint="@string/code_warning"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/f333333" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_gray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ico_mima" />
+
+        <EditText
+            android:id="@+id/ed_psw"
+            android:textSize="@dimen/textsize_16"
+            android:layout_width="fill_parent"
+            android:layout_height="34dp"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:hint="@string/password_warning"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/f333333" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_gray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ico_mima" />
+
+        <EditText
+            android:id="@+id/ed_secpsw"
+            android:textSize="@dimen/textsize_16"
+            android:layout_width="fill_parent"
+            android:layout_height="34dp"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:hint="@string/passwordr_warning"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/f333333" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/bt_returnlogin"
+            android:textSize="@dimen/textsize_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/login_fast"
+            android:textColor="@color/colorPrimaryDark" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/ffffff"
+        android:gravity="center_vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/bt_reg"
+            android:textSize="@dimen/textsize_18"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/regist"
+            android:textColor="@color/ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

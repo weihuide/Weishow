@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主页第二个fragment布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/B2"
+    >
+   <com.dote.family.view.TitleLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/im_title"/>
+   <LinearLayout
+       android:id="@+id/login_show"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:textSize="@dimen/textsize_16"
+          android:textColor="@color/T3"
+          android:text="有一大波的福利在这里，赶快注册登录就能看啦！"/>
+      <Button
+          android:layout_marginTop="10dp"
+          android:id="@+id/bt_login"
+          android:textSize="@dimen/textsize_18"
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:background="@color/colorPrimaryDark"
+          android:text="戳我登录"
+          android:textColor="@color/ffffff" />
+   </LinearLayout>
+
+   <com.aspsine.swipetoloadlayout.SwipeToLoadLayout
+       android:id="@+id/swipeToLoadLayout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+      <com.dote.family.view.RefreshHeaderView
+          android:id="@id/swipe_refresh_header"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:gravity="center"/>
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/swipe_target"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+      </android.support.v7.widget.RecyclerView>
+      <com.dote.family.view.RefreshFootView
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:id="@id/swipe_load_more_footer"/>
+   </com.aspsine.swipetoloadlayout.SwipeToLoadLayout>
+
+</LinearLayout>
